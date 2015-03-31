@@ -7,8 +7,8 @@ class Grains
 
   def total
     total = 0 
-    (1..64).each { |x| total += square(x) }
+    squares_on_board = 64
+    (1..squares_on_board).each { |x| total += square(x) }
     total
   end
 end
-
