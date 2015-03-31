@@ -5,5 +5,9 @@ class Grains
     number_to_multiply_grains**(num_of_square-1)
   end
 
+  def total
+    # Total up all the grains on each previous square
+  end
+
 end
 
