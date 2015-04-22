@@ -6,9 +6,6 @@ class Grains
   end
 
   def total
-    total = 0 
-    squares_on_board = 64
-    (1..squares_on_board).each { |x| total += square(x) }
-    total
+    total = (1..64).reduce { |memo, x| memo += square(x) }
   end
 end
