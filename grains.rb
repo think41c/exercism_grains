@@ -1,5 +1,5 @@
 class Grains
-  
+
   def initialize
   	@squares_on_board = 64
   end
