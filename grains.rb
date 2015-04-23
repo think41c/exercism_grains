@@ -1,7 +1,7 @@
 class Grains
 
   def initialize
-    @squares_on_board = 64
+  	@squares_on_board = 64
   end
 
   def square(num_of_square)
