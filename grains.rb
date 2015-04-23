@@ -10,6 +10,6 @@ class Grains
   end
 
   def total
-    total = (1..@squares_on_board).reduce { |memo, x| memo += square(x) }
+    (1..@squares_on_board).reduce { |memo, x| memo += square(x) }
   end
 end
