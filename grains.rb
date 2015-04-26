@@ -1,4 +1,6 @@
 class Grains
+  
+  SQUARES_ON_A_BOARD = 64
 
   def square(num_of_square)
     number_to_multiply_grains = 2
@@ -6,6 +8,6 @@ class Grains
   end
 
   def total
-    (1..64).reduce { |memo, x| memo += square(x) }
+    (1..SQUARES_ON_A_BOARD).reduce { |memo, x| memo += square(x) }
   end
 end
